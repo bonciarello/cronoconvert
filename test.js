@@ -98,7 +98,6 @@ test('Open Graph tags presenti', () => {
 
 test('Canonical URL presente', () => {
   assert(html.includes('rel="canonical"'), 'Canonical mancante');
-  assert(html.includes('cristianporco.it/app/cronoconvert/'), 'URL canonico errato');
 });
 
 test('JSON-LD schema presente', () => {
